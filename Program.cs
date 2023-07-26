@@ -1,5 +1,10 @@
 ﻿
 
+string[] firstArray = new string[5] { "7898", "456", "123", "459", "8787" };
+string[] secondArray = new string[firstArray.Length];
+
+GetSecondArray(firstArray, secondArray);
+PrintArray(secondArray);
 
 void GetSecondArray(string[] firstArray, string[] secondArray)
 {
